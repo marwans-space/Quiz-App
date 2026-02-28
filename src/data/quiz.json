@@ -1,0 +1,187 @@
+{
+  "quizzes": [
+    {
+      "category": "Programming",
+      "title": "JavaScript Basics Quiz",
+      "questions": [
+        {
+          "question": "Which keyword is used to declare a variable in JavaScript?",
+          "options": ["var", "let", "const", "all of the above"],
+          "answer": "all of the above"
+        },
+        {
+          "question": "What does '===' mean in JavaScript?",
+          "options": [
+            "Assignment",
+            "Equality",
+            "Strict equality",
+            "Comparison"
+          ],
+          "answer": "Strict equality"
+        },
+        {
+          "question": "Which method converts JSON data into a JavaScript object?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "toObject()",
+            "convertJSON()"
+          ],
+          "answer": "JSON.parse()"
+        },
+        {
+          "question": "Which of these is NOT a JavaScript data type?",
+          "options": ["String", "Number", "Boolean", "Character"],
+          "answer": "Character"
+        },
+        {
+          "question": "What is the output of typeof null?",
+          "options": ["null", "object", "undefined", "boolean"],
+          "answer": "object"
+        },
+        {
+          "question": "Which symbol is used for comments in JavaScript?",
+          "options": ["//", "/* */", "#", "--"],
+          "answer": "//"
+        },
+        {
+          "question": "Which function is used to print output in the console?",
+          "options": ["print()", "console.log()", "log()", "echo()"],
+          "answer": "console.log()"
+        },
+        {
+          "question": "Which loop is best for iterating over arrays?",
+          "options": ["for", "while", "do...while", "for...of"],
+          "answer": "for...of"
+        },
+        {
+          "question": "Which operator is used to concatenate strings?",
+          "options": ["+", "&", "concat()", "||"],
+          "answer": "+"
+        },
+        {
+          "question": "Which keyword is used to handle errors?",
+          "options": ["catch", "error", "try", "throw"],
+          "answer": "try"
+        }
+      ]
+    },
+    {
+      "category": "Sports",
+      "title": "Football Knowledge Quiz",
+      "questions": [
+        {
+          "question": "Which country won the FIFA World Cup in 2018?",
+          "options": ["Brazil", "Germany", "France", "Argentina"],
+          "answer": "France"
+        },
+        {
+          "question": "How many players are on the field for one soccer team?",
+          "options": ["9", "10", "11", "12"],
+          "answer": "11"
+        },
+        {
+          "question": "Which player is known as 'The King of Football'?",
+          "options": ["Messi", "Cristiano Ronaldo", "Pele", "Maradona"],
+          "answer": "Pele"
+        },
+        {
+          "question": "Which club has won the most UEFA Champions League titles?",
+          "options": ["Barcelona", "Real Madrid", "AC Milan", "Liverpool"],
+          "answer": "Real Madrid"
+        },
+        {
+          "question": "What is the maximum duration of a standard football match?",
+          "options": ["60 minutes", "90 minutes", "120 minutes", "80 minutes"],
+          "answer": "90 minutes"
+        },
+        {
+          "question": "Which country hosted the 2022 FIFA World Cup?",
+          "options": ["Russia", "Qatar", "USA", "Japan"],
+          "answer": "Qatar"
+        },
+        {
+          "question": "Which position is responsible for preventing goals?",
+          "options": ["Striker", "Midfielder", "Defender", "Goalkeeper"],
+          "answer": "Goalkeeper"
+        },
+        {
+          "question": "Which player has the most Ballon d'Or awards?",
+          "options": ["Messi", "Cristiano Ronaldo", "Pele", "Maradona"],
+          "answer": "Messi"
+        },
+        {
+          "question": "Which country won the first FIFA World Cup in 1930?",
+          "options": ["Brazil", "Uruguay", "Italy", "Argentina"],
+          "answer": "Uruguay"
+        },
+        {
+          "question": "What is the term for scoring three goals in a single match?",
+          "options": ["Hat-trick", "Triple", "Treble", "Three-shot"],
+          "answer": "Hat-trick"
+        }
+      ]
+    },
+    {
+      "category": "Games",
+      "title": "Video Games Trivia Quiz",
+      "questions": [
+        {
+          "question": "Which company created the PlayStation console?",
+          "options": ["Sony", "Microsoft", "Nintendo", "Sega"],
+          "answer": "Sony"
+        },
+        {
+          "question": "In Minecraft, which material is needed to craft a torch?",
+          "options": [
+            "Wood + Coal",
+            "Stick + Coal",
+            "Stone + Coal",
+            "Iron + Coal"
+          ],
+          "answer": "Stick + Coal"
+        },
+        {
+          "question": "Which game features the character Master Chief?",
+          "options": ["Halo", "Call of Duty", "Gears of War", "Destiny"],
+          "answer": "Halo"
+        },
+        {
+          "question": "What is the best-selling video game of all time?",
+          "options": ["Minecraft", "Tetris", "GTA V", "Super Mario Bros"],
+          "answer": "Minecraft"
+        },
+        {
+          "question": "Which company developed the game Fortnite?",
+          "options": ["Epic Games", "Activision", "Ubisoft", "EA"],
+          "answer": "Epic Games"
+        },
+        {
+          "question": "In Pokémon, what type is Pikachu?",
+          "options": ["Fire", "Water", "Electric", "Grass"],
+          "answer": "Electric"
+        },
+        {
+          "question": "Which game introduced the character 'Link'?",
+          "options": ["Zelda", "Mario", "Metroid", "Final Fantasy"],
+          "answer": "Zelda"
+        },
+        {
+          "question": "Which console was released first?",
+          "options": ["PlayStation", "Xbox", "Nintendo 64", "Sega Genesis"],
+          "answer": "Sega Genesis"
+        },
+        {
+          "question": "Which game popularized the battle royale genre?",
+          "options": ["PUBG", "Fortnite", "Apex Legends", "Warzone"],
+          "answer": "PUBG"
+        },
+        {
+          "question": "Which game features the phrase 'Finish Him!'?",
+          "options": ["Street Fighter", "Tekken", "Mortal Kombat", "Injustice"],
+          "answer": "Mortal Kombat"
+        }
+      ]
+    }
+  ]
+}
