@@ -1,10 +1,15 @@
+import { useNavigate } from "react-router";
 import data from "../data/quiz.json";
 import { useQuiz } from "./QuizContext";
 export default function Home() {
   const categories = data["quizzes"];
-  const { setSelectedId } = useQuiz();
+  const { setSelectedId, setIsRunning, setTimeLeft } = useQuiz();
+  const navigate = useNavigate();
   const handleClick = (e) => {
     setSelectedId(parseInt(e.currentTarget.id));
+    navigate("/quiz");
+    setTimeLeft(120);
+    setIsRunning(true);
   };
 
   return (
