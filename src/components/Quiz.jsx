@@ -13,7 +13,6 @@ export default function Quiz() {
     setIsRunning,
     timeLeft,
     setTimeLeft,
-    answers,
     setAnswers,
   } = useQuiz();
 
@@ -56,7 +55,7 @@ export default function Quiz() {
         <h1 className="font-display font-semibold text-2xl">
           Q: {questions.question}
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div key={current} className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {questions["options"].map((val, ind) => (
             <label
               key={ind}
@@ -68,7 +67,7 @@ export default function Quiz() {
                 value={val}
                 id={ind + "-radio"}
                 name="options"
-                selected={selected === val}
+                checked={selected === val}
                 onChange={() => {
                   setSelected(val);
                 }}

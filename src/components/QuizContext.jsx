@@ -3,7 +3,7 @@ const QuizContext = createContext();
 
 export function ContextProvider({ children }) {
   const [selectedId, setSelectedId] = useState(null);
-  const [timeLeft, setTimeLeft] = useState(120);
+  const [timeLeft, setTimeLeft] = useState(300);
   const [isRunning, setIsRunning] = useState(false);
   const [answers, setAnswers] = useState({});
   return (

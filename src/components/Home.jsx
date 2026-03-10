@@ -8,12 +8,12 @@ export default function Home() {
   const handleClick = (e) => {
     setSelectedId(parseInt(e.currentTarget.id));
     navigate("/quiz");
-    setTimeLeft(120);
+    setTimeLeft(300);
     setIsRunning(true);
   };
 
   return (
-    <div className="rounded-md grid grid-cols lg:grid-cols-3 gap-20">
+    <div className="rounded-md grid grid-cols lg:grid-cols-3 gap-20 mb-6">
       {categories.map((value, index) => (
         <div key={index}>
           <div
@@ -23,7 +23,7 @@ export default function Home() {
           >
             <div>
               <img
-                src="https://placehold.co/300x300"
+                src={value.img}
                 alt={value.category}
                 className="absolute z-1 rounded-md object-cover"
               />

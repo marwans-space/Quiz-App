@@ -3,6 +3,7 @@
     {
       "category": "Programming",
       "title": "JavaScript Basics Quiz",
+      "img": "src/data/assets/js-quiz.webp",
       "questions": [
         {
           "question": "Which keyword is used to declare a variable in JavaScript?",
@@ -69,6 +70,7 @@
     {
       "category": "Sports",
       "title": "Football Knowledge Quiz",
+      "img": "src/data/assets/sports-quiz.webp",
       "questions": [
         {
           "question": "Which country won the FIFA World Cup in 2018?",
@@ -125,6 +127,7 @@
     {
       "category": "Games",
       "title": "Video Games Trivia Quiz",
+      "img": "src/data/assets/gaming-quiz.webp",
       "questions": [
         {
           "question": "Which company created the PlayStation console?",
@@ -180,6 +183,413 @@
           "question": "Which game features the phrase 'Finish Him!'?",
           "options": ["Street Fighter", "Tekken", "Mortal Kombat", "Injustice"],
           "answer": "Mortal Kombat"
+        }
+      ]
+    },
+    {
+      "category": "Biology",
+      "title": "Biology Trivia Quiz",
+      "img": "src/data/assets/biology-quiz.webp",
+      "questions": [
+        {
+          "question": "What is the basic unit of life?",
+          "answer": "Cell",
+          "options": ["Atom", "Tissue", "Cell", "Organ"]
+        },
+        {
+          "question": "Which organelle is known as the powerhouse of the cell?",
+          "answer": "Mitochondria",
+          "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"]
+        },
+        {
+          "question": "What molecule carries genetic information?",
+          "answer": "DNA",
+          "options": ["RNA", "Protein", "DNA", "Lipid"]
+        },
+        {
+          "question": "Which process do plants use to make their own food?",
+          "answer": "Photosynthesis",
+          "options": [
+            "Respiration",
+            "Digestion",
+            "Photosynthesis",
+            "Fermentation"
+          ]
+        },
+        {
+          "question": "What is the function of red blood cells?",
+          "answer": "Transport oxygen",
+          "options": [
+            "Fight infection",
+            "Transport oxygen",
+            "Clot blood",
+            "Regulate temperature"
+          ]
+        },
+        {
+          "question": "Which system in the body is responsible for transporting blood?",
+          "answer": "Circulatory system",
+          "options": [
+            "Respiratory system",
+            "Digestive system",
+            "Circulatory system",
+            "Nervous system"
+          ]
+        },
+        {
+          "question": "What type of reproduction involves only one parent?",
+          "answer": "Asexual reproduction",
+          "options": [
+            "Sexual reproduction",
+            "Binary fission",
+            "Asexual reproduction",
+            "Pollination"
+          ]
+        },
+        {
+          "question": "Which macromolecule is primarily responsible for enzyme activity?",
+          "answer": "Proteins",
+          "options": ["Carbohydrates", "Lipids", "Proteins", "Nucleic acids"]
+        },
+        {
+          "question": "What is the largest organ in the human body?",
+          "answer": "Skin",
+          "options": ["Liver", "Brain", "Skin", "Heart"]
+        },
+        {
+          "question": "Which part of the brain controls balance and coordination?",
+          "answer": "Cerebellum",
+          "options": ["Cerebrum", "Medulla", "Cerebellum", "Thalamus"]
+        }
+      ]
+    },
+    {
+      "category": "Music",
+      "title": "Music Trivia Quiz",
+      "img": "src/data/assets/music-quiz.webp",
+      "questions": [
+        {
+          "question": "Which instrument has 88 keys?",
+          "options": ["Guitar", "Violin", "Piano", "Drums"],
+          "answer": "Piano"
+        },
+        {
+          "question": "Who is known as the King of Pop?",
+          "options": [
+            "Elvis Presley",
+            "Michael Jackson",
+            "Prince",
+            "Justin Bieber"
+          ],
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "Which symbol raises a musical note by a half step?",
+          "options": ["Flat", "Sharp", "Natural", "Dot"],
+          "answer": "Sharp"
+        },
+        {
+          "question": "How many strings does a standard guitar have?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "6"
+        },
+        {
+          "question": "Which genre of music originated in Jamaica?",
+          "options": ["Jazz", "Reggae", "Rock", "Blues"],
+          "answer": "Reggae"
+        },
+        {
+          "question": "Who is known as the Queen of Pop?",
+          "options": ["Madonna", "Adele", "Rihanna", "Lady Gaga"],
+          "answer": "Madonna"
+        },
+        {
+          "question": "Which instrument is played with a bow?",
+          "options": ["Violin", "Piano", "Drums", "Trumpet"],
+          "answer": "Violin"
+        },
+        {
+          "question": "Which genre combines rap and rhythm-based beats?",
+          "options": ["Rock", "Hip-Hop", "Country", "Classical"],
+          "answer": "Hip-Hop"
+        },
+        {
+          "question": "Which famous band sang 'Hey Jude'?",
+          "options": ["The Beatles", "Queen", "ABBA", "The Rolling Stones"],
+          "answer": "The Beatles"
+        },
+        {
+          "question": "Which instrument keeps rhythm in most bands?",
+          "options": ["Drums", "Violin", "Flute", "Cello"],
+          "answer": "Drums"
+        }
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "title": "General Knowledge and Facts Quiz",
+      "img": "src/data/assets/general-quiz.webp",
+      "questions": [
+        {
+          "question": "What is the largest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Pacific Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "question": "How many continents are there?",
+          "options": ["5", "6", "7", "8"],
+          "answer": "7"
+        },
+        {
+          "question": "What is the capital of Japan?",
+          "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+          "answer": "Tokyo"
+        },
+        {
+          "question": "Which gas do plants absorb from the atmosphere?",
+          "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+          "answer": "Carbon Dioxide"
+        },
+        {
+          "question": "Which planet is known as the Red Planet?",
+          "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+          "answer": "Mars"
+        },
+        {
+          "question": "Which is the tallest mountain in the world?",
+          "options": ["K2", "Everest", "Kilimanjaro", "Alps"],
+          "answer": "Everest"
+        },
+        {
+          "question": "What is the largest animal on Earth?",
+          "options": ["Elephant", "Blue Whale", "Shark", "Giraffe"],
+          "answer": "Blue Whale"
+        },
+        {
+          "question": "How many days are there in a leap year?",
+          "options": ["364", "365", "366", "367"],
+          "answer": "366"
+        },
+        {
+          "question": "What currency is used in the United Kingdom?",
+          "options": ["Euro", "Dollar", "Pound Sterling", "Franc"],
+          "answer": "Pound Sterling"
+        },
+        {
+          "question": "Which is the fastest land animal?",
+          "options": ["Lion", "Cheetah", "Tiger", "Leopard"],
+          "answer": "Cheetah"
+        }
+      ]
+    },
+    {
+      "category": "Computer Knowledge",
+      "title": "Computer Basics Quiz",
+      "img": "src/data/assets/computer-quiz.webp",
+      "questions": [
+        {
+          "question": "What does CPU stand for?",
+          "options": [
+            "Central Process Unit",
+            "Central Processing Unit",
+            "Computer Personal Unit",
+            "Central Program Utility"
+          ],
+          "answer": "Central Processing Unit"
+        },
+        {
+          "question": "Which device is used to input text into a computer?",
+          "options": ["Mouse", "Keyboard", "Monitor", "Printer"],
+          "answer": "Keyboard"
+        },
+        {
+          "question": "Which storage device has no moving parts?",
+          "options": ["HDD", "SSD", "DVD", "Floppy Disk"],
+          "answer": "SSD"
+        },
+        {
+          "question": "What does RAM stand for?",
+          "options": [
+            "Random Access Memory",
+            "Read Access Memory",
+            "Run Access Memory",
+            "Real Application Memory"
+          ],
+          "answer": "Random Access Memory"
+        },
+        {
+          "question": "Which company developed Windows?",
+          "options": ["Apple", "Google", "Microsoft", "IBM"],
+          "answer": "Microsoft"
+        },
+        {
+          "question": "Which device displays computer output visually?",
+          "options": ["Monitor", "Keyboard", "Scanner", "Speaker"],
+          "answer": "Monitor"
+        },
+        {
+          "question": "Which key combination copies selected text?",
+          "options": ["Ctrl + C", "Ctrl + V", "Ctrl + X", "Ctrl + Z"],
+          "answer": "Ctrl + C"
+        },
+        {
+          "question": "What does URL stand for?",
+          "options": [
+            "Uniform Resource Locator",
+            "Universal Resource Link",
+            "Unique Resource Location",
+            "Unified Resource Locator"
+          ],
+          "answer": "Uniform Resource Locator"
+        },
+        {
+          "question": "Which device is used to print documents?",
+          "options": ["Scanner", "Printer", "Router", "Monitor"],
+          "answer": "Printer"
+        },
+        {
+          "question": "Which storage unit is the largest?",
+          "options": ["Megabyte", "Gigabyte", "Terabyte", "Kilobyte"],
+          "answer": "Terabyte"
+        }
+      ]
+    },
+    {
+      "category": "History",
+      "title": "World History Quiz",
+      "img": "src/data/assets/history-quiz.webp",
+      "questions": [
+        {
+          "question": "Who was the first President of the United States?",
+          "options": [
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "George Washington",
+            "John Adams"
+          ],
+          "answer": "George Washington"
+        },
+        {
+          "question": "In which year did World War II end?",
+          "options": ["1943", "1945", "1950", "1939"],
+          "answer": "1945"
+        },
+        {
+          "question": "Which civilization built the pyramids?",
+          "options": ["Romans", "Greeks", "Egyptians", "Persians"],
+          "answer": "Egyptians"
+        },
+        {
+          "question": "Who discovered America in 1492?",
+          "options": [
+            "Christopher Columbus",
+            "Marco Polo",
+            "Magellan",
+            "James Cook"
+          ],
+          "answer": "Christopher Columbus"
+        },
+        {
+          "question": "The Great Wall is located in which country?",
+          "options": ["Japan", "China", "India", "Mongolia"],
+          "answer": "China"
+        },
+        {
+          "question": "Which war was fought between the North and South regions in the US?",
+          "options": ["World War I", "Civil War", "Cold War", "Vietnam War"],
+          "answer": "Civil War"
+        },
+        {
+          "question": "Who was the famous queen of ancient Egypt?",
+          "options": ["Cleopatra", "Victoria", "Elizabeth", "Mary"],
+          "answer": "Cleopatra"
+        },
+        {
+          "question": "Which empire was ruled by Julius Caesar?",
+          "options": [
+            "Greek Empire",
+            "Roman Empire",
+            "Ottoman Empire",
+            "Persian Empire"
+          ],
+          "answer": "Roman Empire"
+        },
+        {
+          "question": "Which ship sank in 1912?",
+          "options": ["Britannic", "Titanic", "Lusitania", "Queen Mary"],
+          "answer": "Titanic"
+        },
+        {
+          "question": "Who was known for leading the civil rights movement in the US?",
+          "options": [
+            "Martin Luther King Jr.",
+            "Nelson Mandela",
+            "Gandhi",
+            "Malcolm X"
+          ],
+          "answer": "Martin Luther King Jr."
+        }
+      ]
+    },
+    {
+      "category": "Science",
+      "title": "Science Trivia Quiz",
+      "img": "src/data/assets/science-quiz.webp",
+      "questions": [
+        {
+          "question": "What is the chemical symbol for water?",
+          "options": ["O2", "H2O", "CO2", "HO"],
+          "answer": "H2O"
+        },
+        {
+          "question": "Which planet is the largest in our solar system?",
+          "options": ["Earth", "Saturn", "Jupiter", "Neptune"],
+          "answer": "Jupiter"
+        },
+        {
+          "question": "What gas do humans breathe in?",
+          "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+          "answer": "Oxygen"
+        },
+        {
+          "question": "What part of the body pumps blood?",
+          "options": ["Brain", "Lungs", "Heart", "Liver"],
+          "answer": "Heart"
+        },
+        {
+          "question": "What force keeps objects on Earth?",
+          "options": ["Magnetism", "Friction", "Gravity", "Pressure"],
+          "answer": "Gravity"
+        },
+        {
+          "question": "What gas do plants produce during photosynthesis?",
+          "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+          "answer": "Oxygen"
+        },
+        {
+          "question": "Which organ helps humans breathe?",
+          "options": ["Heart", "Lungs", "Kidney", "Liver"],
+          "answer": "Lungs"
+        },
+        {
+          "question": "What is the center of our solar system?",
+          "options": ["Earth", "Moon", "Sun", "Mars"],
+          "answer": "Sun"
+        },
+        {
+          "question": "What is the boiling point of water?",
+          "options": ["90°C", "100°C", "80°C", "120°C"],
+          "answer": "100°C"
+        },
+        {
+          "question": "What vitamin do we get from sunlight?",
+          "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+          "answer": "Vitamin D"
         }
       ]
     }

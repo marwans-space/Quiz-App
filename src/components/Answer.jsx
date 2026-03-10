@@ -11,7 +11,7 @@ export default function Answer() {
     return Object.entries(answers).reduce((count, [index, ans]) => {
       return ans === correctAns[index]?.answer ? count + 1 : count;
     }, 0);
-  }, [answers, data.quizzes, selectedId]);
+  }, [answers, selectedId]);
   return !seeFullAnswers ? (
     <div className="bg-white py-4 px-6 rounded-md border text-black flex flex-col gap-3 text-center">
       <h1 className="font-sans font-semibold text-4xl uppercase">Great job!</h1>
