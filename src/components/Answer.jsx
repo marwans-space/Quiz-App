@@ -26,25 +26,27 @@ export default function Answer() {
       </a>
     </div>
   ) : (
-    data["quizzes"][selectedId]["questions"].map((value, index) => (
-      <div
-        key={index}
-        className="bg-white py-4 px-6 rounded-md border text-black flex flex-col gap-6"
-      >
-        <h1 className="font-display font-semibold text-2xl">
-          Q: {value.question}
-        </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {value["options"].map((val, ind) => (
-            <label
-              key={ind}
-              className={`text-xl font-sans text-center rounded-md border-4 text-white bg-mist-500 hover:bg-mist-300 hover:cursor-pointer ${val === value.answer ? "border-2 border-green-400" : ""}`}
-            >
-              {val}
-            </label>
-          ))}
+    <div className="grid grid-rows-10">
+      {data["quizzes"][selectedId]["questions"].map((value, index) => (
+        <div
+          key={index}
+          className="bg-white py-4 px-6 rounded-md border text-black flex flex-col gap-6"
+        >
+          <h1 className="font-display font-semibold text-2xl">
+            Q: {value.question}
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            {value["options"].map((val, ind) => (
+              <label
+                key={ind}
+                className={`text-xl font-sans text-center rounded-md border-4 text-white bg-mist-500 hover:bg-mist-300 hover:cursor-pointer ${val === value.answer ? "border-2 border-green-400" : ""}`}
+              >
+                {val}
+              </label>
+            ))}
+          </div>
         </div>
-      </div>
-    ))
+      ))}
+    </div>
   );
 }
