@@ -3,7 +3,7 @@
     {
       "category": "Programming",
       "title": "JavaScript Basics Quiz",
-      "img": "src/data/assets/js-quiz.webp",
+      "img": "public/js-quiz.webp",
       "questions": [
         {
           "question": "Which keyword is used to declare a variable in JavaScript?",
@@ -70,7 +70,7 @@
     {
       "category": "Sports",
       "title": "Football Knowledge Quiz",
-      "img": "src/data/assets/sports-quiz.webp",
+      "img": "public/sports-quiz.webp",
       "questions": [
         {
           "question": "Which country won the FIFA World Cup in 2018?",
@@ -127,7 +127,7 @@
     {
       "category": "Games",
       "title": "Video Games Trivia Quiz",
-      "img": "src/data/assets/gaming-quiz.webp",
+      "img": "public/gaming-quiz.webp",
       "questions": [
         {
           "question": "Which company created the PlayStation console?",
@@ -189,7 +189,7 @@
     {
       "category": "Biology",
       "title": "Biology Trivia Quiz",
-      "img": "src/data/assets/biology-quiz.webp",
+      "img": "public/biology-quiz.webp",
       "questions": [
         {
           "question": "What is the basic unit of life?",
@@ -266,7 +266,7 @@
     {
       "category": "Music",
       "title": "Music Trivia Quiz",
-      "img": "src/data/assets/music-quiz.webp",
+      "img": "public/music-quiz.webp",
       "questions": [
         {
           "question": "Which instrument has 88 keys?",
@@ -328,7 +328,7 @@
     {
       "category": "General Knowledge",
       "title": "General Knowledge and Facts Quiz",
-      "img": "src/data/assets/general-quiz.webp",
+      "img": "public/general-quiz.webp",
       "questions": [
         {
           "question": "What is the largest ocean on Earth?",
@@ -390,7 +390,7 @@
     {
       "category": "Computer Knowledge",
       "title": "Computer Basics Quiz",
-      "img": "src/data/assets/computer-quiz.webp",
+      "img": "public/computer-quiz.webp",
       "questions": [
         {
           "question": "What does CPU stand for?",
@@ -462,7 +462,7 @@
     {
       "category": "History",
       "title": "World History Quiz",
-      "img": "src/data/assets/history-quiz.webp",
+      "img": "public/history-quiz.webp",
       "questions": [
         {
           "question": "Who was the first President of the United States?",
@@ -539,7 +539,7 @@
     {
       "category": "Science",
       "title": "Science Trivia Quiz",
-      "img": "src/data/assets/science-quiz.webp",
+      "img": "public/science-quiz.webp",
       "questions": [
         {
           "question": "What is the chemical symbol for water?",
