@@ -1,18 +1,52 @@
-# React + Vite
+# Quizly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quizly is a modern, responsive quiz app built with React and Vite. Choose from a set of topics, answer timed questions, and review the answer key when you finish.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Topic-based quizzes with image cards
+- Five-minute countdown timer
+- Progress indicator and keyboard-friendly answer selection
+- Previous-question navigation with answers preserved
+- Score summary and answer review
+- Responsive layout for mobile and desktop
 
-## React Compiler
+## Tech stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React 19
+- React Router
+- Vite
+- Tailwind CSS utility classes
 
-Note: This will impact Vite dev & build performances.
+## Getting started
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open the local URL printed by Vite in your browser.
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
+
+## Project structure
+
+```text
+src/
+├── components/       # Quiz screens and shared context
+├── data/             # Quiz questions
+├── App.jsx           # Application shell and routes
+└── index.css         # Tailwind imports and base styles
+public/               # Quiz artwork
+```
+
+## License
+
+This project is maintained by [Marwan Nasser](https://github.com/marwans-space).
